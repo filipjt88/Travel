@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --pink: #ffc0cb;
+    --white: #fff;
+    --dark: #101010;
+    --transition: .5s ease;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+}
+
+.py {
+    padding: 80px;
+}
+
+.button {
+    padding: 10px 30px;
+    background: transparent;
+    border: 1px solid var(--white);
+}
+
+/**** HEAD *****/
+
+.head {
+    padding: 10px;
+    background: var(--dark);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;    
+}
+
+
+/**** END OF HEAD *****/
+
+
+/**** NAVIGATION *****/
+
+.navigation {
+    padding: 15px;
+    background: var(--white);
+}
+
+.nav .nav-link {
+    color: var(--dark)!important;
+    font-size: .9rem;
+}
+
+/**** END OF NAVIGATION *****/
+
+
+
+/**** HEADER *****/
+
+header {
+    background-image: url(img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    color: var(--white);
+}
+
+header .button {
+    color: var(--white);
+}
+
+header .button:hover {
+    background: var(--dark);
+    color: var(--white);
+    transition: var(--transition);
+}
+
+header h2,p, .button {
+    transform: translateY(200px);
+}
+
+header article i {
+    margin: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+header article {
+    background: var(--white);
+}
+
+header article .fa-instagram {
+    color: #e4405f;
+}
+
+/**** END OF HEADER *****/
+
+
+/**** SIDEBAR *****/
+
+.sidebar h5 {
+    font-size: .9rem;
+    background: var(--pink);
+    height: 20px;
+    padding: 7px;
+    color: var(--white);
+}
+
+.sidebar .row {
+  padding: 20px;
+}
+
+/**** END OF SIDEBAR *****/
+
+
+/**** FOOTER *****/
+
+footer {
+    background: var(--dark);
+    color: var(--white);
+    font-weight: 100!important;
+}
+
+footer .nav .nav-link {
+    color: var(--white)!important;
+}
+
+footer .button {
+    padding: 10px 30px;
+    background: transparent;
+    border: 1px solid var(--white);
+}
+
+/**** END OF FOOTER *****/
+
+
+
+/**** RESPONSIVE DESIGN *****/
+
+@media(max-width:768px) {
+    .head {
+        margin: auto;
+        padding: 50px;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    header h2 {
+        font-size: 1rem!important;
+    }
+}
+
+
+
+/**** END OF RESPONSIVE DESIGN *****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
